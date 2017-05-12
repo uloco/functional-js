@@ -1,0 +1,18 @@
+{
+  "name": "functional-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "filter.js",
+  "dependencies": {
+    "babel": "^6.23.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.22.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
