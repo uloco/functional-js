@@ -1,10 +1,11 @@
 {
   "name": "functional-js",
   "version": "1.0.0",
-  "description": "",
-  "main": "filter.js",
+  "main": "index.js",
   "dependencies": {
-    "babel": "^6.23.0"
+    "babel": "^6.23.0",
+    "lodash": "^4.17.4",
+    "ramda": "^0.24.1"
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.22.0"
@@ -13,6 +14,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Umut Topuzoğlu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uloco/functional-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/uloco/functional-js/issues"
+  },
+  "homepage": "https://github.com/uloco/functional-js#readme",
+  "description": ""
 }
