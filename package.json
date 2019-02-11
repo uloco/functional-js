@@ -4,6 +4,7 @@
   "main": "index.js",
   "dependencies": {
     "babel": "^6.23.0",
+    "flow-bin": "^0.57.3",
     "lodash": "^4.17.4",
     "ramda": "^0.24.1"
   },

@@ -10,6 +10,7 @@ var out = {
 
 }
 
+
 // imperative
 var output = fs.readFileSync('reduce2.txt', 'utf-8').split('\n')
 
