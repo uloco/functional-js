@@ -15,6 +15,10 @@ function Num(a) {
 Num.prototype.equals = function(b) {
   return this.value === b.value;
 };
+Num.prototype.map = function(fn) {
+  return new Num(fn(this.value))
+}
+
 const num = R.construct(Num);
 log(R.equals(num(10), num(10))); // true
 
@@ -52,3 +56,27 @@ const sums2 = R.compose(
 );
 
 log(sums1(10) === sums2(10)); // true
+
+const data = [1, 4, 6, 12];
+log(
+  data
+    .map(addition(30))
+    .map(mult(40))
+    .map(addition(10))
+);
+log(
+  R.compose(
+    R.map(addition(10)),
+    R.map(mult(40)),
+    R.map(addition(30))
+  )(data)
+);
+
+const op2 = R.compose(
+  addition(10),
+  mult(40),
+  addition(30)
+);
+log(R.map(op2)(data));
+
+log(R.map(op2, num(20)))
