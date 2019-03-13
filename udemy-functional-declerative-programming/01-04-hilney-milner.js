@@ -1,3 +1,4 @@
+//@flow
 const { log } = console;
 
 const R = require("ramda");
