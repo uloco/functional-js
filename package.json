@@ -5,7 +5,7 @@
   "dependencies": {
     "babel": "^6.23.0",
     "flow-bin": "^0.57.3",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.20",
     "ramda": "^0.26.1"
   },
   "devDependencies": {
